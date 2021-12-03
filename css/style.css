@@ -1,0 +1,322 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body, a{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    line-height: 26px;
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Montserrat', sans-serif;
+}
+
+a, a:hover{
+    text-decoration: none;
+}
+
+img{
+    max-width: 100%;
+}
+
+.lawyer-text{
+    /* margin-bottom: 50px; */
+}
+
+.lawyer-text h1{
+    font-size: 42px;
+    line-height: 58px;
+    font-weight: 700;
+    color: #28377e;
+    text-transform: uppercase;
+}
+
+/* header css start */
+.bg-light {
+    background-color: white !important;
+}
+
+.navbar .nav-item .nav-link{
+    color: #28377e;
+    font-weight: 700;
+    font-size: 14px;
+    letter-spacing: 1px;
+    margin: 0px 0px 0px 15px;
+    transition: .5s;
+}
+
+.navbar .nav-item .nav-link:hover, .navbar .nav-item .nav-link:focus{
+    color: #f2622c;
+}
+
+/* header css end */
+
+/* banner css start */
+.banner{
+    padding: 80px 0px;
+    background: url(../images/slider.png) no-repeat top center;
+    background-size: cover;
+}
+
+.banner .banner-caption{
+    width: 100%;
+    min-height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.banner .banner-caption h1{
+    color: white;
+    font-size: 54px;
+    line-height: 64px;
+    text-transform: uppercase;
+    font-weight: 650;
+}
+
+.arrow{
+    width: 100%;
+    padding: 110px 0px 10px;
+    text-align: center;
+}
+
+/* banner css end */
+
+/* what we are css start */
+.what-we-are{
+    padding: 80px 0px;
+}
+
+.what-we-are .lawyer-text{
+    margin-top: 40px;
+}
+
+.what-we-are-left-bottom{
+    margin-top: 20px;
+}
+
+.what-we-are-left-bottom p{
+    font-size: 15px;
+    line-height: 25px;
+    color: #c3c3c3;
+}
+
+/* what we are css end */
+
+/* what we do css start */
+.what-we-do{
+     width: 100%;
+     padding: 80px 0px;
+     background: url("../images/whatwe.png") center top no-repeat;
+     background-size: cover;
+}
+
+.what-we-do .title{
+    text-align: center;
+    padding: 0px 0px 50px;
+}
+
+.title h2{
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 58px;
+    text-transform: uppercase;
+    color: #1f4f87; 
+}
+.what-we-do .card{
+    border-radius: 0px;
+    border: 0px;
+}
+.what-we-do .card .card-body{
+     position: absolute;
+     width: 100%;
+     height: 100%;
+     text-align: center;
+     top: 40%;
+}
+
+.what-we-do .card .card-body .card-title{
+    font-size: 22px;
+    text-transform: uppercase;
+    font-weight: 700;
+    line-height: 32px;
+    color: #fff;
+}
+.what-we-do .card .card-body .arrows{
+    position: absolute;
+    top: 40%;
+    left: 45%;
+}
+
+/* what we do css end */
+
+/* our attorney css start */
+.our-attorney{
+    padding: 80px 0px;
+    background: url(../images/s2.png);
+}
+
+.our-attorney .lawyer-text{
+    margin-top: 120px;
+}
+
+.our-attorney .lawyer-text h1{
+    color: white;
+}
+
+.our-attorney .lawyer-text p{
+    font-size: 15px;
+    line-height: 25px;
+    color: #929dcf;
+}
+
+.our-attorney .lawyer-text a{
+    color: #f2622c;
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    display: inline-block;
+    margin-top: 30px;
+}
+
+.attorney-right{
+    position: relative;
+    margin-bottom: 22px;
+    background-size: cover;
+    
+}
+
+.attorney-right .text {
+    position: absolute;
+    bottom: 22px;
+    left: 25px;
+}
+
+.attorney-right .text h3{
+    color: white;
+    font-size: 22px;
+    line-height: 32px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+/* our attorney css end */
+
+/* language css start */
+.language{
+    padding: 80px 0px;
+}
+
+.inner-lng{
+    margin-top: 50px;
+    padding: 20px;
+}
+
+.inner-lng h4{
+    text-transform: uppercase;
+    font-weight: 800;
+    color: #28377e;
+    margin-bottom: 10px;
+}
+
+.inner-lng p{
+    font-size: 15px;
+    line-height: 25px;
+    color: #c3c3c3;
+}
+
+.inner-lng a{
+    color: #f2622c;
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    display: inline-block;
+}
+
+/* language css end */
+
+/* contact css start */
+.contact {
+    width: 100%;
+    padding: 80px 0px;
+    background-color: #28377e;
+}
+.contact .title {
+    text-align: center;
+}
+.contact .title h2 {
+    color: #fff;
+}
+.contact .forms .cus-form {
+    display: block;
+    width: 100%;
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid #4759a7;
+    padding: 40px 0px 6px 3px;
+    color: #ffffff;
+}
+.contact .btn-light {
+    background-color: #f2622c !important;
+    border: none;
+    text-transform: uppercase;
+    color: #fff;
+    padding: 10px 60px;
+    font-weight: 700;
+    font-size: 12px;
+}
+.contact .btn-light:hover ,.contact .btn-light:focus  {
+    background-color: #fff !important;
+    color: #f2622c; 
+}
+
+/* contact css end */
+
+/* footer css start */
+footer{
+    padding: 30px 0px;
+    background-color: #0c1234;
+}
+
+.footer-left{
+    text-align: center;
+    margin-top: 12px;
+}
+
+.footer-left p{
+    color: #4a5283;
+    padding: 0;
+    margin: 0;
+}
+
+
+
+.footer-right{
+    text-align: right;
+    margin-top: 12px;
+}
+
+.footer-right ul{
+    padding: 0;
+    list-style: none;
+}
+
+.footer-right ul li{
+    display: inline-block;
+}
+
+.footer-right ul li a{
+    color: white;
+    display: inline-block;
+    font-size: 20px;
+    padding: 0px 10px;
+    transition: .5s;
+}
+
+.footer-right ul li a:hover, .footer-right ul li a:focus{
+    color: #f2622c;
+}
+/* footer css ends */
